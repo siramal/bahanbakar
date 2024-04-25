@@ -5,6 +5,21 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
 </head>
 <body>
+    <style>
+        body {
+            background-image: url(https://img.freepik.com/free-vector/neon-background_23-2149088313.jpg?t=st=1714031196~exp=1714034796~hmac=95bb7effb8602f55d89357e65fbef88e69dda4377bd13524627eeb624fa15db6&w=900);
+            background-repeat:no-repeat;
+            background-position:center;
+            background-size:cover;
+        }
+        .container{
+            background-image: url(https://img.freepik.com/free-vector/neon-background_23-2149088313.jpg?t=st=1714031196~exp=1714034796~hmac=95bb7effb8602f55d89357e65fbef88e69dda4377bd13524627eeb624fa15db6&w=900);
+            background-repeat:no-repeat;
+            background-position:center;
+            background-size:cover;
+        }
+
+    </style>
     <?php
 
     class Shell {
@@ -74,11 +89,11 @@
     ?>
    
                
-        <body class=" bg-dark px-5">
-        <div class="container">
+        <body>
+        <div class="col-6 container">
             <div class="row justify-content-center align-items-center" style="height: 600px;">
-                <div class="col-10">
-                    <div class="card bg-info">
+                <div class="col-12">
+                    <div>
                         <div class="card-body">
                             <div class="row my-3">
                                 <div class="col-12 text-center ">
